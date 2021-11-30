@@ -16,7 +16,6 @@ router
     .get()
     .post();
 
-
 router
     .route('/:id')
     .get(getUserById)
